@@ -1,0 +1,16 @@
+FIXES:
+ to osa5/7: 
+  * DONE: logout should empty form fields
+    => DONE: FIX IN 5: setState '' for title, author, url
+  * DONE: after login: may not be able to create/delete/vote before refresh, update state (user=....)?
+    => DONE: STILL PROBLEM IN 5?
+  * all notifications are the same, separate errors?
+  * stop blog event propagation (closes blog when 'like' clicked)
+  * decide if name should be shown instead of username ('logged in', users view)
+  * more tests for reducers perhaps?
+
+  EASY BUT CRUCIAL!!!! DO THESE!!!!
+  * DONE: fix axios update to 5 (remove async)
+  * DONE: fix to 5: blogs.js => blogsRouter.put => don't format in last return
+  * DONE: add Togglable create blog form => requirement for 5.5!!!!!
+  * DONE: remove async and try-catch from PUT in backend blogs.js (uses promises)
